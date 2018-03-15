@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		77540A672058FED500B02C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A662058FED500B02C7D /* AppDelegate.swift */; };
-		77540A692058FED500B02C7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A682058FED500B02C7D /* ViewController.swift */; };
-		77540A6C2058FED500B02C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77540A6A2058FED500B02C7D /* Main.storyboard */; };
 		77540A6E2058FED500B02C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77540A6D2058FED500B02C7D /* Assets.xcassets */; };
 		77540A712058FED500B02C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77540A6F2058FED500B02C7D /* LaunchScreen.storyboard */; };
+		77540A792058FF5500B02C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77540A782058FF5500B02C7D /* Main.storyboard */; };
+		77540A7B205900A500B02C7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77540A7A205900A500B02C7D /* GoogleService-Info.plist */; };
+		77540A7D205902A600B02C7D /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A7C205902A600B02C7D /* DatabaseService.swift */; };
+		77540A7F205902C000B02C7D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A7E205902C000B02C7D /* Meal.swift */; };
+		77540A812059033300B02C7D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A802059033300B02C7D /* Post.swift */; };
+		77540A83205903B500B02C7D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A82205903B500B02C7D /* MainTableViewController.swift */; };
+		77540A872059044400B02C7D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A862059044400B02C7D /* MainTableViewCell.swift */; };
+		77540A892059056900B02C7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A882059056900B02C7D /* LoginViewController.swift */; };
+		77540A8B2059059500B02C7D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A8A2059059500B02C7D /* SignUpViewController.swift */; };
+		77540A912059064F00B02C7D /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A902059064F00B02C7D /* AccountsTableViewController.swift */; };
+		77540A932059068400B02C7D /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A922059068400B02C7D /* AccountTableViewCell.swift */; };
+		77540A95205906AF00B02C7D /* EditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A94205906AF00B02C7D /* EditMenuViewController.swift */; };
+		77540A972059070800B02C7D /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A962059070800B02C7D /* DetailTableViewController.swift */; };
+		77540A992059074A00B02C7D /* ConfirmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A982059074A00B02C7D /* ConfirmTableViewController.swift */; };
+		77540A9B2059078F00B02C7D /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A9A2059078F00B02C7D /* CartTableViewCell.swift */; };
+		77540A9D205907B600B02C7D /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A9C205907B600B02C7D /* NoteTableViewCell.swift */; };
+		77540A9F205907E400B02C7D /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77540A9E205907E400B02C7D /* AddEditTableViewController.swift */; };
+		E539095D48928FC427108BC8 /* Pods_OrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4395E818E703E97B66448133 /* Pods_OrderApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4395E818E703E97B66448133 /* Pods_OrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BC3B2E65C15FBD0F6393C6 /* Pods-OrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderApp/Pods-OrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		68CC79CF745194948C5D7566 /* Pods-OrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrderApp/Pods-OrderApp.release.xcconfig"; sourceTree = "<group>"; };
 		77540A632058FED500B02C7D /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77540A662058FED500B02C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77540A682058FED500B02C7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77540A6B2058FED500B02C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77540A6D2058FED500B02C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77540A702058FED500B02C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77540A722058FED500B02C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77540A782058FF5500B02C7D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		77540A7A205900A500B02C7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77540A7C205902A600B02C7D /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		77540A7E205902C000B02C7D /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		77540A802059033300B02C7D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		77540A82205903B500B02C7D /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		77540A862059044400B02C7D /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = "/Users/shinyshih/Dropbox/Shiny/iOS Projects/OrderApp/OrderApp/customer/MainTableViewCell.swift"; sourceTree = "<absolute>"; };
+		77540A882059056900B02C7D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		77540A8A2059059500B02C7D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		77540A902059064F00B02C7D /* AccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		77540A922059068400B02C7D /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		77540A94205906AF00B02C7D /* EditMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuViewController.swift; sourceTree = "<group>"; };
+		77540A962059070800B02C7D /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		77540A982059074A00B02C7D /* ConfirmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmTableViewController.swift; sourceTree = "<group>"; };
+		77540A9A2059078F00B02C7D /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		77540A9C205907B600B02C7D /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		77540A9E205907E400B02C7D /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E539095D48928FC427108BC8 /* Pods_OrderApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +75,8 @@
 			children = (
 				77540A652058FED500B02C7D /* OrderApp */,
 				77540A642058FED500B02C7D /* Products */,
+				82A596D7A0E85F3548DBFFAD /* Pods */,
+				E5E77C70CCD9CD0335CF392E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,70 @@
 		77540A652058FED500B02C7D /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				77540A782058FF5500B02C7D /* Main.storyboard */,
 				77540A662058FED500B02C7D /* AppDelegate.swift */,
-				77540A682058FED500B02C7D /* ViewController.swift */,
-				77540A6A2058FED500B02C7D /* Main.storyboard */,
+				77540A8C205905B100B02C7D /* login */,
+				77540A8D205905C900B02C7D /* customer */,
+				77540A8F205905F600B02C7D /* admin */,
+				77540A7C205902A600B02C7D /* DatabaseService.swift */,
+				77540A7E205902C000B02C7D /* Meal.swift */,
+				77540A802059033300B02C7D /* Post.swift */,
 				77540A6D2058FED500B02C7D /* Assets.xcassets */,
 				77540A6F2058FED500B02C7D /* LaunchScreen.storyboard */,
 				77540A722058FED500B02C7D /* Info.plist */,
+				77540A7A205900A500B02C7D /* GoogleService-Info.plist */,
 			);
 			path = OrderApp;
+			sourceTree = "<group>";
+		};
+		77540A8C205905B100B02C7D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				77540A882059056900B02C7D /* LoginViewController.swift */,
+				77540A8A2059059500B02C7D /* SignUpViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		77540A8D205905C900B02C7D /* customer */ = {
+			isa = PBXGroup;
+			children = (
+				77540A82205903B500B02C7D /* MainTableViewController.swift */,
+				77540A862059044400B02C7D /* MainTableViewCell.swift */,
+				77540A962059070800B02C7D /* DetailTableViewController.swift */,
+				77540A982059074A00B02C7D /* ConfirmTableViewController.swift */,
+				77540A9A2059078F00B02C7D /* CartTableViewCell.swift */,
+				77540A9C205907B600B02C7D /* NoteTableViewCell.swift */,
+				77540A9E205907E400B02C7D /* AddEditTableViewController.swift */,
+			);
+			path = customer;
+			sourceTree = "<group>";
+		};
+		77540A8F205905F600B02C7D /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				77540A902059064F00B02C7D /* AccountsTableViewController.swift */,
+				77540A922059068400B02C7D /* AccountTableViewCell.swift */,
+				77540A94205906AF00B02C7D /* EditMenuViewController.swift */,
+			);
+			path = admin;
+			sourceTree = "<group>";
+		};
+		82A596D7A0E85F3548DBFFAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61BC3B2E65C15FBD0F6393C6 /* Pods-OrderApp.debug.xcconfig */,
+				68CC79CF745194948C5D7566 /* Pods-OrderApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5E77C70CCD9CD0335CF392E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4395E818E703E97B66448133 /* Pods_OrderApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77540A752058FED500B02C7D /* Build configuration list for PBXNativeTarget "OrderApp" */;
 			buildPhases = (
+				5ADF3008236C0051B75DF650 /* [CP] Check Pods Manifest.lock */,
 				77540A5F2058FED500B02C7D /* Sources */,
 				77540A602058FED500B02C7D /* Frameworks */,
 				77540A612058FED500B02C7D /* Resources */,
+				ADB62EB15B358C7211FE4CDB /* [CP] Embed Pods Frameworks */,
+				C5DA855221C31ACDF05496A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,34 +220,100 @@
 			buildActionMask = 2147483647;
 			files = (
 				77540A712058FED500B02C7D /* LaunchScreen.storyboard in Resources */,
+				77540A7B205900A500B02C7D /* GoogleService-Info.plist in Resources */,
+				77540A792058FF5500B02C7D /* Main.storyboard in Resources */,
 				77540A6E2058FED500B02C7D /* Assets.xcassets in Resources */,
-				77540A6C2058FED500B02C7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ADF3008236C0051B75DF650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB62EB15B358C7211FE4CDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OrderApp/Pods-OrderApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrderApp/Pods-OrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DA855221C31ACDF05496A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrderApp/Pods-OrderApp-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77540A5F2058FED500B02C7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77540A692058FED500B02C7D /* ViewController.swift in Sources */,
+				77540A972059070800B02C7D /* DetailTableViewController.swift in Sources */,
+				77540A7F205902C000B02C7D /* Meal.swift in Sources */,
+				77540A9F205907E400B02C7D /* AddEditTableViewController.swift in Sources */,
+				77540A992059074A00B02C7D /* ConfirmTableViewController.swift in Sources */,
+				77540A7D205902A600B02C7D /* DatabaseService.swift in Sources */,
+				77540A872059044400B02C7D /* MainTableViewCell.swift in Sources */,
+				77540A95205906AF00B02C7D /* EditMenuViewController.swift in Sources */,
+				77540A932059068400B02C7D /* AccountTableViewCell.swift in Sources */,
+				77540A9B2059078F00B02C7D /* CartTableViewCell.swift in Sources */,
+				77540A9D205907B600B02C7D /* NoteTableViewCell.swift in Sources */,
+				77540A892059056900B02C7D /* LoginViewController.swift in Sources */,
+				77540A912059064F00B02C7D /* AccountsTableViewController.swift in Sources */,
 				77540A672058FED500B02C7D /* AppDelegate.swift in Sources */,
+				77540A8B2059059500B02C7D /* SignUpViewController.swift in Sources */,
+				77540A83205903B500B02C7D /* MainTableViewController.swift in Sources */,
+				77540A812059033300B02C7D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77540A6A2058FED500B02C7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77540A6B2058FED500B02C7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77540A6F2058FED500B02C7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +434,13 @@
 		};
 		77540A762058FED500B02C7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BC3B2E65C15FBD0F6393C6 /* Pods-OrderApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = OrderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShinyShih.OrderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +451,13 @@
 		};
 		77540A772058FED500B02C7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CC79CF745194948C5D7566 /* Pods-OrderApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = OrderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShinyShih.OrderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
